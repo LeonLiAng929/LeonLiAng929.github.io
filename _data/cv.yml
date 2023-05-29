@@ -2,96 +2,118 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Ang Li
     - name: Date of Birth
-      value: 14th March 1879
+      value: 29th September 1999
     - name: Languages
-      value: English, German
+      value: English, Chinese
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Doctor of Philosophy
+      institution: University of Queensland, Australia
+      year: 2023-Current
+
+    - title: Bachelor of Computer Science Advanced (Honours) 
+      institution: Monash University, Australia
+      year: 2018-2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - WAM&#58; 3.87/4.00
+        - title: Awards&#58;
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+          - Dux of Undergraduate in The Bachelor of Computer Science Advanced (Honours)
+          - Australian Computer Society (ACS) Victoria Student Award (Nominated)
+          - Faculty Commendation for FIT2082, Semester 2, 2020 (Awarded to the student who has achieved the highest grade in unit FIT2082, Computer science research project)
+        - GRE Score&#58; 323+4.0
+        - Honours Year Research Thesis. GestureExplorer - Supporting Immersive Visualisation and Exploration of Gesture Data (8946 words)
 
-- title: Experience
+- title: Research Outputs
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: GestureExplorer&#58; Immersive Visualisation and Exploration of Gesture Data
+      institution: Supervisor&#58; Barrett Ens, Max Cordeil
+      year: 2021-2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Sifted through existing literature, summarised, synthesised and assessed the existing visualisation approaches for gesture elicitation study
+        - Applied advanced techniques in Unity and VR development, implemented a system for gesture analysis and exploration
+        - Established a backend in python to support k-means and mean shift clustering, dimensional reduction with PCA and MDS, calculation of dynamic time warping distance for pattern identification of gesture data
+        - Conducted user studies among recruited participants to evaluate the developed visualisations and features and made improvements based on the feedback
+        - Proposed a research poster, a research demonstration and a research paper using LaTex and submitted them to top-tier conferences
+        - title: The research outcome of this project includes three conference publications listed below&#58;
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+            - A. Li, J. Liu, M. Cordeil and B. Ens, 'Initial Evaluation of Immersive Gesture Exploration with GestureExplorer,' 2022 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW), 2022, pp. 580-581, doi&#58; 10.1109/VRW55335.2022.00141.
+            - A. Li, J. Liu, M. Cordeil and B. Ens, 'Demonstrating Immersive Gesture Exploration with GestureExplorer,' 2022 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW), 2022, pp. 980-981, doi&#58; 10.1109/VRW55335.2022.00341.
+            - A. Li, J. Liu, M. Cordeil and B. Ens, 'GestureExplorer&#58; Immersive Visualisation and Exploration of Gesture Data,' In Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems (CHI '23). Association for Computing Machinery, New York, NY, doi&#58; 10.1145/3544548.3580678.
+#- title: Research Grants And Awards
+#  type: time_table
+#  contents:
+#    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#      year: 2015-now
+#      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Research Grants And Awards
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - year: 2023-2027
+      items: 
+        - University of Queensland Research Higher Degree Scholarship                     
+        - University of Queensland Research Training Scholarship                         
+    - year: 2023
+      items: 
+        - SIGCHI Gary Marsden Travel Awards (GMTA)
+    - year: 2022
+      items: 
+        - IEEE VR 2022 Conference-The Honourable Mention for the Best Demo Award             
 
-- title: Honors and Awards
+- title: Research Grants And Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2023-2027
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - University of Queensland Research Higher Degree Scholarship                     
+        - University of Queensland Research Training Scholarship                         
+    - year: 2023
       items: 
-        - Max Planck Medal
+        - SIGCHI Gary Marsden Travel Awards (GMTA)
+    - year: 2022
+      items: 
+        - IEEE VR 2022 Conference-The Honourable Mention for the Best Demo Award             
 
-- title: Academic Interests
+- title: Other Research/Project Experience
+  type: time_table
+  contents:
+    - title: An Immersive Expressive Avatar for Health Context Awareness
+      institution: Supervisor&#58; Barrett Ens 
+      year: 2020-2021
+      description:
+        - Developed new techniques for extracting emotional features from human actors and mapping these to various virtual avatars. The avatars respond to different emotional inputs detected from human users and were deployed in AR using Vuforia and Unity
+    - title: AR Hand Gesture Capture for Interactive Data Analytics
+      institution: Supervisor&#58; Barrett Ens, Maxime Cordeil 
+      year: 2020-2021
+      description:
+        - Developed a tool in Unity assisted with the visualisation and analysis of hand gesture data, in order to find out what are the bare hand gestures we could use in augmented reality to fully support data visualisation tasks
+    - title: Barriers to Telehealth Accessibility Among Elderly Chinese Migrants in Australia
+      year: 2020
+      description:
+        -  Conducted a cross-discipline research by surveying groups of elderly Chinese migrants in the greater Melbourne area about the obstacles encountered when accessing Telehealth services. Proposed and articulated solutions corresponding to the obstacles
+    - title: Monash Hackathon 2019-Team Member                                       
+      year: 2019
+      description:
+        - Designed and implemented a mobile app in React for students to schedule meetups, helping them connect to people of similar interests and acquire new skills
+- title: Academic Referees
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Dr. Maxime Cordeil 
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Senior Lecturer, School of Information Technology and Electrical Engineering, Faculty of Engineering, Architecture and Information Technology, University of Queensland
+        - m.cordeil@uq.edu.au
+    - title: Dr. Barrett Ens
       items:
-        - Description 1.
-        - Description 2.
+        - Senior Lecturer, Faculty of Information Technology, Monash University
+        - barrett.ens@monash.edu
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+#- title: Other Interests
+#  type: list
+#  contents:
+#    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
