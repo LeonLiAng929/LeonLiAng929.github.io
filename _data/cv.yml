@@ -64,21 +64,7 @@
         - SIGCHI Gary Marsden Travel Awards (GMTA)
     - year: 2022
       items: 
-        - IEEE VR 2022 Conference-The Honourable Mention for the Best Demo Award             
-
-- title: Research Grants And Awards
-  type: time_table
-  contents:
-    - year: 2023-2027
-      items: 
-        - University of Queensland Research Higher Degree Scholarship                     
-        - University of Queensland Research Training Scholarship                         
-    - year: 2023
-      items: 
-        - SIGCHI Gary Marsden Travel Awards (GMTA)
-    - year: 2022
-      items: 
-        - IEEE VR 2022 Conference-The Honourable Mention for the Best Demo Award             
+        - IEEE VR 2022 Conference-The Honourable Mention for the Best Demo Award                     
 
 - title: Other Research/Project Experience
   type: time_table
