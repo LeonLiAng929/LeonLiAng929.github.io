@@ -2,9 +2,7 @@
   type: map
   contents:
     - name: Full Name
-      value: Ang Li
-    - name: Date of Birth
-      value: 29th September 1999
+      value: Leon Ang Li
     - name: Languages
       value: English, Chinese
 
