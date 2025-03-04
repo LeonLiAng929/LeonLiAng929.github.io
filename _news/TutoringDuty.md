@@ -6,5 +6,5 @@ inline: true
 related_posts: false
 ---
 
-I will become a tutor for DECO2300/7230, semester 2, 2023 at the University of Queensland.
+I will become a tutor for DECO2300/7230, semester 2, 2023, and DECO2500/7250, semester 1, 2024 at the University of Queensland.
 
