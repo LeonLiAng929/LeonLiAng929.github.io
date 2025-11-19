@@ -16,6 +16,7 @@ nav_order: 5
   /* full-bleed iframe that ignores layout containers */
   .full-iframe {
     position: fixed;
+    top: 64px; 
     inset: 0;
     width: 100%;
     height: 100%;
