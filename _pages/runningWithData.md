@@ -7,8 +7,27 @@ nav: false
 nav_order: 5
 ---
 
+<style>
+  html, body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+  }
+  /* full-bleed iframe that ignores layout containers */
+  .full-iframe {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    margin: 0;
+  }
+</style>
+
 <iframe
+class="full-iframe"
 src="https://runningwithdata.github.io/"
-style="width: 100%; height: 100vh; border: none;"
-loading="lazy">
+loading="lazy"
+allowfullscreen
+title="Running with Data">
 </iframe>
