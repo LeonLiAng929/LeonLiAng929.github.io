@@ -4,100 +4,215 @@
     - name: Full Name
       value: Leon Ang Li
     - name: Languages
-      value: English, Chinese
+      value: Chinese (native), English (proficient), Japanese (intermediate), French (basic)
 
 - title: Education
   type: time_table
   contents:
-    - title: Doctor of Philosophy
-      institution: University of Queensland, Australia
-      year: 2023-Current
+    - title: Doctor of Philosophy in Human-Computer Interaction
+      institution: The University of Queensland, Australia
+      year: 2023-2026
+      description:
+        - Expected completion&#58; October 2026
+        - Thesis topic&#58; Extreme Analytics
+        - Supervisors&#58; Maxime Cordeil, Jarrod Knibbe, Gianluca Demartini, and Stephen Viller
+        - title: Scholarships&#58;
+          contents:
+            - University of Queensland Research Higher Degree Scholarship
+            - University of Queensland Research Training Scholarship
 
-    - title: Bachelor of Computer Science Advanced (Honours) 
+    - title: Bachelor of Computer Science Advanced (Honours)
       institution: Monash University, Australia
       year: 2018-2022
       description:
-        - WAM&#58; 3.87/4.00
+        - First Class Honours
         - title: Awards&#58;
           contents:
-          - Dux of Undergraduate in The Bachelor of Computer Science Advanced (Honours)
-          - Australian Computer Society (ACS) Victoria Student Award (Nominated)
-          - Faculty Commendation for FIT2082, Semester 2, 2020 (Awarded to the student who has achieved the highest grade in unit FIT2082, Computer science research project)
+            - Dux of Undergraduate in the Bachelor of Computer Science Advanced (Honours)
+            - Australian Computer Society Victoria Student Award (Nominated)
+            - Faculty Commendation for FIT2082, Semester 2, 2020
         - GRE Score&#58; 323+4.0
-        - Honours Year Research Thesis. GestureExplorer - Supporting Immersive Visualisation and Exploration of Gesture Data (8946 words)
+        - Honours thesis&#58; GestureExplorer - Supporting Immersive Visualisation and Exploration of Gesture Data
 
-- title: Research Outputs
+- title: Employment
   type: time_table
   contents:
-    - title: GestureExplorer&#58; Immersive Visualisation and Exploration of Gesture Data
-      institution: Supervisor&#58; Barrett Ens, Max Cordeil
-      year: 2021-2022
+    - title: Incoming Postdoctoral Researcher
+      institution: Inria AVIZ group, France
+      year: Nov 2026-
       description:
-        - Sifted through existing literature, summarised, synthesised and assessed the existing visualisation approaches for gesture elicitation study
-        - Applied advanced techniques in Unity and VR development, implemented a system for gesture analysis and exploration
-        - Established a backend in python to support k-means and mean shift clustering, dimensional reduction with PCA and MDS, calculation of dynamic time warping distance for pattern identification of gesture data
-        - Conducted user studies among recruited participants to evaluate the developed visualisations and features and made improvements based on the feedback
-        - Proposed a research poster, a research demonstration and a research paper using LaTex and submitted them to top-tier conferences
-        - title: The research outcome of this project includes three conference publications listed below&#58;
-          contents:
-            - A. Li, J. Liu, M. Cordeil and B. Ens, 'Initial Evaluation of Immersive Gesture Exploration with GestureExplorer,' 2022 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW), 2022, pp. 580-581, doi&#58; 10.1109/VRW55335.2022.00141.
-            - A. Li, J. Liu, M. Cordeil and B. Ens, 'Demonstrating Immersive Gesture Exploration with GestureExplorer,' 2022 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW), 2022, pp. 980-981, doi&#58; 10.1109/VRW55335.2022.00341.
-            - A. Li, J. Liu, M. Cordeil and B. Ens, 'GestureExplorer&#58; Immersive Visualisation and Exploration of Gesture Data,' In Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems (CHI '23). Association for Computing Machinery, New York, NY, doi&#58; 10.1145/3544548.3580678.
-#- title: Research Grants And Awards
-#  type: time_table
-#  contents:
-#    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-#      year: 2015-now
-#      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+        - Advanced situated visualisations for sports videos
+        - Working with Petra Isenberg and Romain Vuillemot
 
-- title: Research Grants And Awards
+- title: Full Papers
+  type: time_table
+  contents:
+    - title: Investigating 3D Selection Performance While Running in Extended Reality&#58; an In-depth Study of the Effect of Speed
+      institution: IEEE Transactions on Visualization and Computer Graphics (TVCG), to appear
+      year: 2026
+      description:
+        - A Fitts' law study of direct virtual touch while standing and running at different speeds, using precise motion tracking to examine selection performance in XR.
+        - '<a href="https://doi.org/10.1109/TVCG.2026.3722681">DOI</a> | <a href="https://youtu.be/77m8X5KWwN4">Video</a>'
+
+    - title: Running with Data&#58; a Survey of the Current Research and a Design Exploration of Future Immersive Visualisations
+      institution: IEEE Transactions on Visualization and Computer Graphics (IEEE VIS 2025)
+      year: 2025
+      description:
+        - A design space of in-situ running visualisations and a workshop-based exploration of future immersive designs.
+        - '<a href="https://doi.org/10.1109/TVCG.2025.3634631">DOI</a>'
+
+    - title: Embedded and Situated Visualisation in Mixed Reality to Support Interval Running
+      institution: Computer Graphics Forum (EuroVis 2025)
+      year: 2025
+      description:
+        - An exploration and evaluation of mixed-reality visualisations for supporting pace tracking during interval running.
+        - '<a href="https://doi.org/10.1111/cgf.70133">DOI</a> | <a href="https://youtu.be/3IlTz_JYoEI">Video</a>'
+
+    - title: First-Person Visualization for Sports and Physical Activities&#58; Challenges and Opportunities
+      institution: Accepted to IEEE Computer Graphics and Applications
+      year: 2026
+      description:
+        - Identifies core visualisation and interaction challenges and research opportunities for first-person sports and physical activities.
+
+    - title: GestureExplorer&#58; Immersive Visualisation and Exploration of Gesture Data
+      institution: ACM CHI 2023
+      year: 2023
+      description:
+        - An immersive analytics tool for exploring, classifying, and making sense of large sets of 3D temporal gesture data.
+        - '<a href="https://doi.org/10.1145/3544548.3580678">DOI</a> | <a href="https://www.youtube.com/watch?v=_5Y5uh3a_pE">Video</a>'
+
+- title: Workshop and Poster Papers
+  type: time_table
+  contents:
+    - title: Challenges and Opportunities for Immersive Visualizations for Running
+      institution: CHI 2026 Workshop on Next Steps for Augmented Reality On-the-Move
+      year: 2026
+      description:
+        - Position paper by Ang Li, Liam Shatzel, Maxime Cordeil, and Charles Perin.
+        - '<a href="https://hci.plus/wp-content/uploads/2026/04/Challenges-and-Opportunities-for-Immersive-Visualizations-for-Running.pdf">Paper</a>'
+
+    - title: SAMMed-VR&#58; Integrated Segment Anything Model in Virtual Reality for Supervised Brain Tumour Segmentation
+      institution: IEEE VIS 2025 Posters
+      year: 2025
+      description:
+        - A virtual-reality probe integrating an expert-in-the-loop workflow with SAM-Med3D for iterative brain tumour segmentation.
+
+    - title: A Visual Survey of In-Situ Running Analytics
+      institution: IEEE VIS 2023 Posters
+      year: 2023
+
+    - title: Demonstrating Immersive Gesture Exploration with GestureExplorer
+      institution: IEEE VR 2022 Workshops - Honourable Mention for Best Demo
+      year: 2022
+      description:
+        - '<a href="https://doi.org/10.1109/VRW55335.2022.00341">DOI</a>'
+
+    - title: Initial Evaluation of Immersive Gesture Exploration with GestureExplorer
+      institution: IEEE VR 2022 Workshops
+      year: 2022
+      description:
+        - '<a href="https://doi.org/10.1109/VRW55335.2022.00141">DOI</a>'
+
+- title: Research Grants and Awards
   type: time_table
   contents:
     - year: 2023-2027
-      items: 
-        - University of Queensland Research Higher Degree Scholarship                     
-        - University of Queensland Research Training Scholarship                         
+      items:
+        - University of Queensland Research Higher Degree Scholarship
+        - University of Queensland Research Training Scholarship
+    - year: 2024
+      items:
+        - Second Place, Westpac Hackathon - Bank of the Future Coding Competition
     - year: 2023
-      items: 
-        - SIGCHI Gary Marsden Travel Awards (GMTA)
+      items:
+        - SIGCHI Gary Marsden Travel Award
     - year: 2022
-      items: 
-        - IEEE VR 2022 Conference-The Honourable Mention for the Best Demo Award                     
+      items:
+        - IEEE VR Honourable Mention for the Best Demo Award
 
-- title: Other Research/Project Experience
+- title: Other Research and Project Experience
   type: time_table
   contents:
+    - title: Research Visit at LIRIS Laboratory, Ecole Centrale de Lyon
+      institution: Lyon, France
+      year: Nov 2025
+      description:
+        - Presented my PhD research and explored collaborations with members of the laboratory led by Romain Vuillemot.
+
+    - title: VisBank - Data Visceralisation for Banking and Financial Data
+      institution: Team Lead
+      year: Jul 2024
+      description:
+        - Led the design and Unity development of a mixed-reality platform that transforms abstract banking information into immersive visualisations connected to customers' financial goals.
+
     - title: An Immersive Expressive Avatar for Health Context Awareness
-      institution: Supervisor&#58; Barrett Ens 
+      institution: Supervisor&#58; Barrett Ens
       year: 2020-2021
-      description:
-        - Developed new techniques for extracting emotional features from human actors and mapping these to various virtual avatars. The avatars respond to different emotional inputs detected from human users and were deployed in AR using Vuforia and Unity
+
     - title: AR Hand Gesture Capture for Interactive Data Analytics
-      institution: Supervisor&#58; Barrett Ens, Maxime Cordeil 
+      institution: Supervisors&#58; Barrett Ens and Maxime Cordeil
       year: 2020-2021
-      description:
-        - Developed a tool in Unity assisted with the visualisation and analysis of hand gesture data, in order to find out what are the bare hand gestures we could use in augmented reality to fully support data visualisation tasks
+
     - title: Barriers to Telehealth Accessibility Among Elderly Chinese Migrants in Australia
       year: 2020
-      description:
-        -  Conducted a cross-discipline research by surveying groups of elderly Chinese migrants in the greater Melbourne area about the obstacles encountered when accessing Telehealth services. Proposed and articulated solutions corresponding to the obstacles
-    - title: Monash Hackathon 2019-Team Member                                       
+
+    - title: Monash Hackathon 2019
+      institution: Team Member
       year: 2019
-      description:
-        - Designed and implemented a mobile app in React for students to schedule meetups, helping them connect to people of similar interests and acquire new skills
+
+- title: Teaching Experience
+  type: time_table
+  contents:
+    - title: DECO2300/7230 Digital Prototyping - Lead Tutor
+      institution: The University of Queensland
+      year: 2024-present
+    - title: Casual Outreach and Engagement Assistant
+      institution: The University of Queensland
+      year: 2024-present
+    - title: DECO2500/7250 Human-Computer Interaction - Tutor
+      institution: The University of Queensland
+      year: 2024
+    - title: DECO2300/7230 Digital Prototyping - Tutor
+      institution: The University of Queensland
+      year: 2023
+
+- title: Academic Service
+  type: time_table
+  contents:
+    - year: 2026
+      items:
+        - IEEE VIS 2026 Posters Program Committee Member
+        - ACM CHI 2026 Reviewer
+        - IEEE PacificVis 2026 Reviewer
+        - ACM VRST 2026 Reviewer
+        - Computer Graphics Forum Reviewer
+    - year: 2025
+      items:
+        - ACM UIST 2025 Reviewer
+        - ACM CHI 2025 Reviewer
+    - year: 2024-present
+      items:
+        - IEEE Transactions on Visualization and Computer Graphics Reviewer
+    - year: 2024
+      items:
+        - ACM ISS 2024 Reviewer
+
+- title: Professional Affiliations and Memberships
+  type: time_table
+  contents:
+    - title: ACM and SIGCHI
+      year: 2023-present
+    - title: IEEE Young Professional
+      year: 2022-present
+
 - title: Academic Referees
   type: nested_list
   contents:
-    - title: Dr. Maxime Cordeil 
-      items: 
-        - Senior Lecturer, School of Information Technology and Electrical Engineering, Faculty of Engineering, Architecture and Information Technology, University of Queensland
-        - m.cordeil@uq.edu.au
-    - title: Dr. Barrett Ens
+    - title: A/Prof Maxime Cordeil
       items:
-        - Senior Lecturer, Faculty of Information Technology, Monash University
-        - barrett.ens@monash.edu
-
-#- title: Other Interests
-#  type: list
-#  contents:
-#    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - School of Information Technology and Electrical Engineering, The University of Queensland
+        - m.cordeil@uq.edu.au
+    - title: A/Prof Barrett Ens
+      items:
+        - Department of Computer Science, Mathematics, Physics and Statistics, The University of British Columbia
+        - barrett.ens@ubc.ca

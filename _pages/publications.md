@@ -2,17 +2,17 @@
 layout: page
 permalink: /publications/
 title: publications
-description: publications by categories in reversed chronological order.
-years: [2025, 2023, 2022]
+description: Publications in reverse chronological order.
 nav: true
 nav_order: 1
 ---
 <!-- _pages/publications.md -->
 <div class="publications">
 
-{%- for y in page.years %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f {{ site.scholar.bibliography }} -q @*[year={{y}}]* %}
-{% endfor %}
+  <h2>Full papers</h2>
+  {% bibliography -f {{ site.scholar.bibliography }} -q @*[category=full_paper]* %}
+
+  <h2>Workshop and poster papers</h2>
+  {% bibliography -f {{ site.scholar.bibliography }} -q @*[category=workshop_poster]* %}
 
 </div>

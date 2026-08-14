@@ -13,19 +13,15 @@ profile:
     <p>The University of Queensland<p>
     <p>Brisbane, Queensland 4072</p>
 
-news: true  # includes a list of news items
-latest_posts: false  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+news: true
+latest_posts: false
+selected_papers: true
+social: true
 ---
-My name is Ang 'Leon' Li, or '李昂' in Chinese character. I am currently a PhD candidate at the School of Information Technology and Electrical Engineering, University of Queensland in Australia. My supervisors are Dr. [Maxime Cordeil](https://sites.google.com/view/cordeil/home), Dr. [Jarrod Knibbe](https://www.jarrodknibbe.info/), Prof. [Gianluca Demartini](https://www.gianlucademartini.net/) and A/Prof. [Stephen Viller](https://itee.uq.edu.au/profile/1871/stephen-viller). I also work closely with Dr. [Charles Perin](http://charlesperin.net/) on immersive visualisation for running.
+My name is Ang 'Leon' Li, or '李昂' in Chinese characters. I am a final-year PhD candidate in Human-Computer Interaction at the School of Information Technology and Electrical Engineering, The University of Queensland, Australia, and expect to complete my PhD in October 2026. My supervisors are A/Prof [Maxime Cordeil](https://sites.google.com/view/cordeil/home), Dr [Jarrod Knibbe](https://www.jarrodknibbe.info/), Prof [Gianluca Demartini](https://www.gianlucademartini.net/), and A/Prof [Stephen Viller](https://itee.uq.edu.au/profile/1871/stephen-viller). I also work closely with Dr [Charles Perin](https://charlesperin.net/) on immersive visualisation for running.
 
-Prior to my PhD candidature at UQ, I completed my Bachelor's Degree as the Dux in Computer Science Advanced from Monash University with a first-class honour. My honours thesis concerned the Visualisation and Analysis of Gesture Data in Immersive Environments. I had much pleasure of being supervised by Dr. [Barrett Ens](https://barrettens.github.io/) and Dr. [Maxime Cordeil](https://sites.google.com/view/cordeil/home) at Monash University's [Data Visualisation and Immersive Analytics Lab (Now the Embodied Visualisation Research Group)](https://www.monash.edu/it/hcc/embodied-visualisation).
+Prior to my PhD candidature at UQ, I completed a Bachelor of Computer Science Advanced (Honours) at Monash University, graduating as the Dux with First Class Honours. My honours thesis concerned the visualisation and analysis of gesture data in immersive environments, supervised by A/Prof [Barrett Ens](https://barrettens.github.io/) and A/Prof [Maxime Cordeil](https://sites.google.com/view/cordeil/home) in Monash University's [Embodied Visualisation Research Group](https://www.monash.edu/it/hcc/embodied-visualisation).
 
-My research interests revolve around the field of Human-Centred Interaction with a focus on Immersive Analytics. My current research topic explores data visualisation and interaction in augmented/virtual environments to support in-situ decision-making while the user is in motion.
+My research focuses on Human-Computer Interaction, Extended Reality, and immersive analytics. I investigate how data visualisation and interaction in augmented and virtual environments can support in-situ decision-making during sports and other activities in motion.
 
-[//]: # Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-[//]: # Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-[//]: #  Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<p style="color: #c62828; font-weight: 600;">I will commence as a Postdoctoral Researcher with the Inria AVIZ group in November 2026, working with Dr Petra Isenberg and A/Prof Romain Vuillemot. My work will explore advanced situated visualisations for sports videos.</p>

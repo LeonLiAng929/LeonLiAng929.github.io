@@ -1,10 +1,10 @@
 ---
 layout: page
 permalink: /running-with-data/
-title: Running with Data
+title: running with data
 description: #Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
-nav: false
-nav_order: 5
+nav: true
+nav_order: 6
 ---
 
 <style>

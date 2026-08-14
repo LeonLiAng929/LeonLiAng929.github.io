@@ -7,18 +7,19 @@ first_name: Ang
 middle_name: 'Leon'
 last_name: Li
 email: Ang.Li1@uq.edu.au
-description: > # the ">" symbol means to ignore newlines until "footer_text:" A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+description: >
+  Academic website of Ang Li, a visualisation and human-computer interaction researcher working on immersive analytics, extended reality, and visualisation for running and sports.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: #jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+keywords: visualisation, visualization, human-computer interaction, immersive analytics, extended reality, virtual reality, mixed reality, sports visualisation
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: Logo-01.png  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://LeonLiAng929.github.io # the base hostname and protocol for your site
+url: https://angli.phd # the base hostname and protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
-last_updated: false # set to true if you want to display last updated in the footer
+last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
@@ -272,6 +273,8 @@ scholar:
 
   style: apa
   locale: en
+  sort_by: year, month
+  order: descending
 
   source: /_bibliography/
   bibliography: papers.bib
@@ -295,10 +298,10 @@ badges: # Display different badges for your publications
   dimensions_badge: true # Dimensions badge (https://badge.dimensions.ai/)
 
 # Filter out certain bibtex entry keywords used internally from the bib output
-filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview, altmetric]
+filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, category, html, pdf, selected, supp, blog, code, poster, slides, website, preview, video, altmetric]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit: 6  # leave blank to always show all authors
+max_author_limit: 8  # keeps Ang Li visible in the 13-author CG&A paper
 more_authors_animation_delay: 10  # more authors are revealed on click using animation; smaller delay means faster animation
 
 
