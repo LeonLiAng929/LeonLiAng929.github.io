@@ -54,6 +54,12 @@
         - A Fitts' law study of direct virtual touch while standing and running at different speeds, using precise motion tracking to examine selection performance in XR.
         - '<a href="https://doi.org/10.1109/TVCG.2026.3722681">DOI</a> | <a href="https://youtu.be/77m8X5KWwN4">Video</a>'
 
+    - title: First-Person Visualization for Sports and Physical Activities&#58; Challenges and Opportunities
+      institution: Accepted to IEEE Computer Graphics and Applications
+      year: 2026
+      description:
+        - Identifies core visualisation and interaction challenges and research opportunities for first-person sports and physical activities.
+
     - title: Running with Data&#58; a Survey of the Current Research and a Design Exploration of Future Immersive Visualisations
       institution: IEEE Transactions on Visualization and Computer Graphics (IEEE VIS 2025)
       year: 2025
@@ -67,12 +73,6 @@
       description:
         - An exploration and evaluation of mixed-reality visualisations for supporting pace tracking during interval running.
         - '<a href="https://doi.org/10.1111/cgf.70133">DOI</a> | <a href="https://youtu.be/3IlTz_JYoEI">Video</a>'
-
-    - title: First-Person Visualization for Sports and Physical Activities&#58; Challenges and Opportunities
-      institution: Accepted to IEEE Computer Graphics and Applications
-      year: 2026
-      description:
-        - Identifies core visualisation and interaction challenges and research opportunities for first-person sports and physical activities.
 
     - title: GestureExplorer&#58; Immersive Visualisation and Exploration of Gesture Data
       institution: ACM CHI 2023
